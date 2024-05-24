@@ -4,7 +4,7 @@ import streamlit as st
 
 car_data = pd.read_csv('vehicles_us.csv') # lendo os dados
 
-st.header('Dashboard - Sprint 5')
+st.header('Dashboard de Veículos')
 
 hist_button = st.button('Criar histograma') # criar um botão
 if hist_button: # se o botão for clicado
